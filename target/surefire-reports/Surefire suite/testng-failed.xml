@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Example_TNG.TestNG_LogIN_Log_Out">
+        <methods>
+          <include name="openWebPage"/>
+          <include name="quitWebBrowser"/>
+          <include name="LogoutAndLogout"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Example_TNG.TestNG_LogIN_Log_Out -->
+      <class name="com.tutorialsNinja.LoginTest">
+        <methods>
+          <include name="BeforeSuit"/>
+          <include name="LoginWithCorrectCredentials"/>
+        </methods>
+      </class> <!-- com.tutorialsNinja.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

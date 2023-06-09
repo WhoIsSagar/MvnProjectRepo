@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PARA TN Register">
+  <test name="Para TN Register">
+
+<parameter name="Browser" value="Chrome"/>
+<parameter name="url" value="https://tutorialsninja.com/demo"/>
+<parameter name="clickMyAccount" value="My Account"/>
+<parameter name="clickRegister" value="Register"/>
+<parameter name="clickFirstName" value="//input [@name = 'firstname']"/>
+<parameter name="clickLastName" value="//input [@name = 'lastname']"/>
+<parameter name="clickEmail" value="//input [@name = 'email']"/>
+<parameter name="clickTelephone" value="//input [@name = 'telephone']"/>
+<parameter name="clickPassword" value="//input [@name = 'password']"/>
+<parameter name="clickConfirmPassword" value="//input [@name = 'confirm']"/>
+<parameter name="firstName" value="Sagar"/>
+<parameter name="lastName" value="Hanjhra"/>
+<parameter name="email" value="sagarhanjhra1@gmail.com"/>
+<parameter name="telephone" value="6475174561"/>
+<parameter name="password" value="Selenium123"/>
+<parameter name="passwordConfirmation" value="Selenium123"/>
+<parameter name="agreeButton" value="//input [@name = 'agree']"/>
+<parameter name="continueButton" value="//input [@class = 'btn btn-primary']"/>
+
+<classes>
+<class name = "Para_TN_Register.Para_TN_Register" />
+</classes>
+</test>
+</suite>
